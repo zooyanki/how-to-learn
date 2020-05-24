@@ -33,7 +33,7 @@
   right: 0px;
 }
 
-.logo {
+.logo_place_header {
   width: 183px;
   height: 32px;
   background-image: url('../images/logo_place_header.svg');
@@ -45,9 +45,6 @@
 .header__title {
   width: 730px;
   margin: auto 64px;
-}
-
-.header__text_title {
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -65,18 +62,12 @@
 
 .header__link_subtitle {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
-
-.header__main-illustration-image {
-  width: 100%;
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -93,15 +84,11 @@
 
 .two-columns__brief {
     min-width: 175px;
-    margin: 0 auto;
-}
-
-.two-columns__text_brief {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2f80ed;
-  margin:0;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2f80ed;
+    margin: 0;
 }
 
 .two-columns__main-text {
@@ -118,19 +105,15 @@
 }
 
 .two-columns__paragraph {
-  display: block;
   margin: 0 auto 30px;
+  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .two-columns__paragraph:last-child {
   margin-bottom: 0;
-}
-
-.two-columns__text_paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: auto;
 }
 
 /*!!!!!!!!!!!!!!!!!!DIGITAL BATH aka Deftones!!!!!!!!!!!!!*/
@@ -143,21 +126,13 @@
 .section-title {
   width: 60%;
   margin: 0 auto 20px;
-}
-
-.section-title__text {
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-  margin: auto;
 }
 
 .section-subtitle {
   width: 60%;
-  margin: auto;
-}
-
-.section-subtitle__text {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -208,39 +183,27 @@
 .feinman__title {
   width: 648px;
   margin: auto;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
 }
 
 .feinman__link {
   position: absolute;
   right: 48px;
   top: 50%;
-}
-
-.feinman__text_title {
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-  margin: auto;
-}
-
-.feinman__subtitle {
-  margin-top: 70px;
-  display: inline-block;
-
-}
-
-.feinman__text_subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  margin: auto;
-}
-
-.feinman__text_link {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
+  color: #2f80ed;
+}
+
+.feinman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 70px auto 0;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!KAUFMAN!!!!!!!!!!!!!!!!!*/
@@ -255,26 +218,17 @@
 
 .section-title__theme_dark {
   width: 60%;
-  display: inline-block;
   margin: 90px auto 20px;
-}
-
-.section-title__text_theme_dark{
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
 }
 
-.section-subtitle__text_theme_dark {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
 .section-subtitle__theme_dark {
   width: 60%;
-  display: inline-block;
-  margin: 0 auto 0;
+  margin: 0 auto 0;line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .table__theme_dark {
@@ -341,7 +295,7 @@
   justify-content: flex-start;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   width: 183px;
   height: 35px;
 }
