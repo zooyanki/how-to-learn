@@ -36,7 +36,6 @@
 .logo_place_header {
   width: 183px;
   height: 32px;
-  background-image: url('../images/logo_place_header.svg');
   position: absolute;
   top: 30px;
   left: 64px;
@@ -278,11 +277,12 @@
   text-align: center;
   min-height: 350px;
   color: white;
+  margin:
 }
 
 .footer__columns {
   width: 90%;
-  margin: 40px 0 60px;
+  margin: 60px 0 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -290,9 +290,9 @@
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  position: relative;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column-reverse;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -300,10 +300,11 @@
   height: 35px;
 }
 .footer__author {
-  position: absolute;
-  left: 0;
-  bottom: 16px;
-  margin-top: 16px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  margin: 18px 0 18px;
 }
 
 .footer__column_content_info {
