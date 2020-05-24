@@ -322,7 +322,7 @@
   font-weight: bold;
 }
 
-.footer__text_links {
+.footer__column_link_text {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -339,7 +339,7 @@
   align-items: flex-start;
 }
 
-.footer__column_list_links {
+.footer__column_links_list {
   list-style-type: none;
   margin: 0;
   padding: 0;
