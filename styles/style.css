@@ -331,21 +331,21 @@
   color: white;
 }
 
+.footer__column-heading {
+  margin-bottom: 20px;
+}
+
 .footer__column-links {
-  margin-top: 20px;
-  margin-bottom: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-}
-
-.footer__column-links_list {
   list-style-type: none;
-  margin: 0;
+  margin: 20px 0 16px;
   padding: 0;
   text-align: left;
 }
+
 
 .footer__social_images {
   width: 16px;
