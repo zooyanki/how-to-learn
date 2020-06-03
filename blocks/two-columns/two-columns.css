@@ -1,0 +1,17 @@
+@import url(__brief/two-columns__brief.css);
+@import url(__main-text/two-columns__main-text.css);
+@import url(__paragraph/two-colmuns__paragraph.css);
+@import url(__span-accent/two-columns__span-accent.css);
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.two-columns:last-child {
+  background-color: #f2f2f2;
+}
+
