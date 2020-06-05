@@ -3,3 +3,7 @@
   height: 38px;
   margin: auto;
 }
+
+.resources__logo:hover {
+  opacity: 0.6;
+}

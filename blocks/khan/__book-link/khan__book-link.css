@@ -6,3 +6,7 @@
   color: #2f80ed;
   margin: 0;
 }
+
+.khan__book-link:hover {
+  opacity: 0.6;
+}

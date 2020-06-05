@@ -1,3 +1,5 @@
+@import url(_theme/section-title_theme_dark.css);
+
 .section-title {
   width: 60%;
   margin: 100px auto 20px;
@@ -5,5 +7,3 @@
   font-size: 60px;
   font-weight: bold;
 }
-
-@import url(_theme/section-title_theme_dark.css);
