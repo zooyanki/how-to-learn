@@ -9,7 +9,8 @@
 @import url(__title/khan__title.css);
 
 .khan {
-  margin-top: 105px;
+  padding-top: 105px;
   overflow: hidden;
   margin-bottom: -150px;
+  background-color: #f2f2f2;
 }

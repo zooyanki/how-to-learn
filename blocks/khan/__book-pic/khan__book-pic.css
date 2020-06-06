@@ -2,5 +2,5 @@
   max-width: 620px;
   max-height: 608px;
   margin-right: 48px;
-  object-fit: scale-down;
+  object-fit: fill;
 }

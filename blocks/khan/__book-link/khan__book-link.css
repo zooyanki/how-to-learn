@@ -5,6 +5,7 @@
   text-decoration: none;
   color: #2f80ed;
   margin: 0;
+  align-self: flex-start;
 }
 
 .khan__book-link:hover {
