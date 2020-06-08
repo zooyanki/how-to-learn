@@ -17,3 +17,6 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
